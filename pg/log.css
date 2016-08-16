@@ -1,0 +1,348 @@
+
+
+/***********************
+page styles
+***********************/
+
+body {
+
+ background: #565656;  
+font-family: Raleway;
+font-size: 0.85 em;
+}
+
+img{
+opacity:0.6;
+height:200px;
+width:200px;
+display:inline-block;
+position:relative;
+overflow:hidden;
+-moz-border-radius:100px;
+border-radius: 100px;
+-webkit-border-radius:100px;
+box-shadow: 10px 10px 5px #888888;
+background: #6AB8CC;
+}
+
+img:hover{
+ opacity:1.0;
+}
+
+
+#wrapper {
+  overflow: hidden;
+  position: : relative;
+  width: 960px;
+  margin: 0 auto;
+  
+}
+
+a:hover{
+  text-decoration: none;
+  font-size: 1.4em;
+  font-style: bold;
+  color: white;
+}
+
+p{
+  font-size: 1.9em;
+  color : white;
+  font: calibri;
+  padding:10px;
+  padding-left: 70px;
+}
+
+
+/***********************
+Navigation
+***********************/
+
+#nav{
+  list-style:none; 
+  padding:0;
+  float:right;
+  margin: 40px 0;
+}
+
+#nav li{
+  float: left;
+  margin-right:14px;
+  font-size: 1.4em;
+  font-weight:bold;
+}
+
+#nav a{
+  color:white;
+}
+
+/***********************
+Header
+***********************/
+
+#header{
+  font-style: bold;
+  float: left;
+  margin:20px 0;
+}
+
+#header h1{
+  
+  font: Raleway;
+  font-size: 3em;
+  color: white;
+  margin: 0;
+}
+
+#header h2{
+ margin: 0;
+ color: #00CC99; 
+ font-size:1.2em;
+}
+
+
+/***********************
+Login form
+***********************/
+
+#login{
+    font: calibri ;
+    float :left;
+    width: 300px;
+    height: 250px;
+    background-color: #0099FF;
+    position: absolute;
+    top:0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    padding-left: 70px;
+    padding-top: 10px;
+    padding-bottom:  10px; 
+    margin: auto;
+    margin-top: 150px;
+    margin-bottom: 50px;
+    border: 2px solid #ccc;
+    border-radius: 25px;
+}
+
+#login h2{
+  color: white;
+}    
+
+input[type="text"]:hover{
+border: 1px solid #FF9933
+}
+
+
+
+input[type="password"]:hover{
+border: 1px solid #FF9933
+}
+
+ 
+.btnExample {
+  padding: 8px;
+  color: white;
+  background: #00CC99;
+  font-weight: bold;
+  border: 1px solid #00CC99;
+   border-radius: 10px;
+}
+ 
+.btnExample:hover {
+  color: #FFF;
+  background: #900;
+}
+.btnExample:hover {
+  cursor: pointer; 
+}
+
+  .post {
+  margin-left:2px;
+  height: 98px;
+  width: 123px;
+  margin-top: 1px;
+  position:absolute;
+  float: right;
+  padding: 2px;
+  color: white;
+  background: #00CC99;
+  font-weight: bold;
+  border: 1px solid #00CC99;
+   border-radius: 1px;
+}
+
+.post:hover {
+  color: #FFF;
+  background: #900;
+  cursor:pointer;
+}
+
+/***********************
+Pofile css
+***********************/
+
+.photo {
+  padding-top:5px;
+  padding-left: 5px;
+    background-color: white;
+    float: left;
+    height: 200px;
+    margin-top: 150px;
+    position: absolute;
+    width: 200px;
+    overflow: :auto;
+}
+
+.friend {
+  padding-top:5px;
+  padding-left: 5px; 
+  margin-top:360px;
+  position:absolute;
+  width: 200px;
+  height:200px;
+  float: left;
+  background-color: white;
+}
+
+.postques{
+
+ margin-top: 29px;
+  position:relative;
+  width: 750px;
+  height:100px;
+  float: right;
+  background-color: white;
+}
+
+.profilepost{
+  padding: 10px;
+  margin: 5px 0 0 15px;
+ overflow: hidden;
+ margin-top: 10px;
+  position:relative;
+  width: 730px;
+  float: right;
+  background-color: white;
+}
+
+.profilepost a{
+  font-size: 1em; 
+}
+
+
+.profilepost a:hover{
+  text-decoration: none;
+  color: red;
+}
+
+/***********************
+Account css
+***********************/
+
+.account {
+ position: absolute;
+  margin-top: 150px;
+  padding: 20px;
+  }
+
+.acc{
+float:left;
+position:relative;
+padding:10px ;
+width:450px; 
+  
+}
+
+.bio{
+float:right;
+  position:relative;
+  padding:10px;
+  padding-left:40px;
+  border-left: 1px solid #00CC99;
+  height: 340px;
+  }
+
+ 
+/*********************
+searchbox
+
+***********************/
+.txt{
+background: #dfdfdf;
+  border: 1px solid #dfdfdf;
+}  
+
+.txt:hover {
+    border: 1px solid #e5d6c1;
+    background:#e5d6c1;
+    -moz-box-shadow:    inset 0 0 10px #000000;
+   -webkit-box-shadow: inset 0 0 10px #000000;
+   box-shadow:         inset 0 0 10px #000000;
+  }
+
+.searchbox{
+ position:absolute;
+  margin-top:250px;
+  padding-left:130px;
+}
+
+.result{
+position:absolute;
+  margin-top: 430px;
+  margin-left: 350px
+}
+
+/*********************
+questionbank
+
+***********************/
+
+.questionwall {
+position: absolute;
+  float: left;
+  margin-top: 150px;
+  padding: 10px;
+  border: 1px solid white;
+  width: 70%;
+}
+
+.questionwall h2{
+color: white;
+}
+
+.space{
+  float:left;
+  position:absolute;
+  margin-top:300px;
+  width: 70%;
+  border: 1px solid white;
+  padding: 10px;
+}
+
+#roll {
+  width: 70%;
+  height: 0%;
+  margin:10px;
+   float: left;
+  position: relative;
+  border: 1px solid white ;
+  padding: 20px;
+
+}
+
+#roll a{
+color: #00CC99;
+}
+
+#roll a:hover{
+  color:white;
+  font-weight: bold;
+}
+
+#roll:hover ,.questionwall:hover , .space:hover {
+   -moz-box-shadow:    inset 0 0 10px #000000;
+   -webkit-box-shadow: inset 0 0 10px #000000;
+   box-shadow:         inset 0 0 10px #000000;
+}
